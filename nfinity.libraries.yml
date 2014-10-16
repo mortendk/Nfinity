@@ -1,0 +1,26 @@
+base:
+  version: 1.x
+  js:
+    js/nfinity.js: {}
+  # dependencies:
+  #   - core/jquery
+
+maintenance-page:
+  version: 1.x
+  js:
+    js/mobile.install.js: {}
+  css:
+    theme:
+      css/theme/maintenance-page.css: {}
+  dependencies:
+    - system/maintenance
+
+install-page:
+  version: 1.x
+  js:
+    js/mobile.install.js: {}
+  css:
+    theme:
+      css/theme/install-page.css: {}
+  dependencies:
+    - seven/maintenance-page

@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    breakpoint (2.5.0)
+      sass (~> 3.3)
+      sassy-maps (< 1.0.0)
+    sass (3.3.14)
+    sassy-maps (0.4.0)
+      sass (~> 3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  breakpoint (~> 2.5.0)
+  sass (~> 3.3.0)

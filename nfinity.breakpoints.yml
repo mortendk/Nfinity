@@ -1,0 +1,18 @@
+nfinity.small:
+  label: Small
+  mediaQuery: '(min-width: 0em)'
+  weight: 0
+  multipliers:
+    - 1x
+nfinity.medium:
+  label: Medium
+  mediaQuery: 'screen and (min-width: 40em and max-width: 120em)'
+  weight: 1
+  multipliers:
+    - 1x
+nfinity.large:
+  label: Large
+  mediaQuery: 'screen and (min-width: 120em)'
+  weight: 1
+  multipliers:
+    - 1x

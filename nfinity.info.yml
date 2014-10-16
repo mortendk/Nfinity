@@ -1,0 +1,47 @@
+name: N*finity
+type: theme
+description: N*finity Theme system
+package: themes
+core: 8.x
+
+# -- CSS -----------------------------------------------------------------------
+stylesheets:
+  all:
+    - css/nfinity.css
+  print:
+    - css/print.css
+
+stylesheets-remove:
+# can we remove by *.theme.css
+  - system.theme.css
+  - user.icons.css
+  - node.css
+  # - system.module.css
+  - user.module.css
+  - views.module.css
+
+# -- Libraries -----------------------------------------------------------------
+libraries:
+    - yggdrasil/base
+
+# -- Regions -------------------------------------------------------------------
+regions:
+  header: Header
+  identity: Identity
+  search: search
+  message: Message
+
+  content: Content
+  content_pre: Content Pre
+  content_post: Content Post
+  sidebar_one: content Sidebar One
+  sidebar_two: Content Sidebar Two
+  frontpage: ------------------
+  frontpage_one: Frontpage One
+  frontpage_two: Frontpage Two
+  frontpage_three: Frontpage Three
+  footer: Footer
+  footer_one: Footer One
+  footer_two: Footer Two
+  footer_three: Footer Three
+  footer_four: Footer Four
