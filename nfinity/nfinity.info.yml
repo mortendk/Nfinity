@@ -26,20 +26,27 @@ libraries:
 
 # -- Regions -------------------------------------------------------------------
 regions:
-  header: Header
+  # Header Region
   identity: Identity
+  header: Header
   search: search
+  menu_user: Menu User
+  menu_main: Menu Main
+  breadcrumb: Breadcrumb
   message: Message
+  # Top
+  top: Top
+  top_1: Top 1
+  top_2: Top 2
+  top_3: Top 3
+  # Content
 
-  content: Content
+  content: Main Content
   content_pre: Content Pre
   content_post: Content Post
-  sidebar_one: content Sidebar One
-  sidebar_two: Content Sidebar Two
-  frontpage: ------------------
-  frontpage_one: Frontpage One
-  frontpage_two: Frontpage Two
-  frontpage_three: Frontpage Three
+
+  bottom: Bottom
+  #footer
   footer: Footer
   footer_one: Footer One
   footer_two: Footer Two

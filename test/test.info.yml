@@ -1,7 +1,0 @@
-name: Test
-type: theme
-description: N*finity based Theme
-package: themes
-core: 8.x
-base theme: nfinity
-
